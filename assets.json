@@ -42,7 +42,7 @@
 		"title": "uBlock filters – Ads",
 		"tags": "ads",
 		"contentURL": [
-			"https://ublockorigin.github.io/uAssets/filters/filters.txt",
+			"https://ublockorigin.github.io/uAssetsCDN/filters/filters.min.txt",
 			"assets/ublock/filters.min.txt",
 			"assets/ublock/filters.txt"
 		],
@@ -61,7 +61,7 @@
 		"title": "uBlock filters – Badware risks",
 		"tags": "malware security",
 		"contentURL": [
-			"https://ublockorigin.github.io/uAssets/filters/badware.txt",
+			"https://ublockorigin.github.io/uAssetsCDN/filters/badware.min.txt",
 			"assets/ublock/badware.min.txt",
 			"assets/ublock/badware.txt"
 		],
@@ -81,7 +81,7 @@
 		"title": "uBlock filters – Privacy",
 		"tags": "privacy",
 		"contentURL": [
-			"https://ublockorigin.github.io/uAssets/filters/privacy.txt",
+			"https://ublockorigin.github.io/uAssetsCDN/filters/privacy.min.txt",
 			"assets/ublock/privacy.min.txt",
 			"assets/ublock/privacy.txt"
 		],
@@ -99,7 +99,7 @@
 		"parent": "uBlock filters",
 		"title": "uBlock filters – Unbreak",
 		"contentURL": [
-			"https://ublockorigin.github.io/uAssets/filters/unbreak.txt",
+			"https://ublockorigin.github.io/uAssetsCDN/filters/unbreak.min.txt",
 			"assets/ublock/unbreak.min.txt",
 			"assets/ublock/unbreak.txt"
 		],
@@ -117,7 +117,7 @@
 		"parent": "uBlock filters",
 		"title": "uBlock filters – Quick fixes",
 		"contentURL": [
-			"https://ublockorigin.github.io/uAssets/filters/quick-fixes.txt",
+			"https://ublockorigin.github.io/uAssetsCDN/filters/quick-fixes.min.txt",
 			"assets/ublock/quick-fixes.min.txt",
 			"assets/ublock/quick-fixes.txt"
 		],
@@ -126,6 +126,36 @@
 			"https://ublockorigin.pages.dev/filters/quick-fixes.min.txt",
 			"https://cdn.jsdelivr.net/gh/uBlockOrigin/uAssetsCDN@main/filters/quick-fixes.min.txt",
 			"https://cdn.statically.io/gh/uBlockOrigin/uAssetsCDN/main/filters/quick-fixes.min.txt"
+		],
+		"supportURL": "https://github.com/uBlockOrigin/uAssets"
+	},
+	"xinggsf_mv": {
+		"content": "filters",
+		"group": "default",
+		"parent": "uBlock filters",
+		"title": "乘风 - 视频过滤规则",
+		"contentURL": [
+			"https://raw.githubusercontent.com/xinggsf/Adblock-Plus-Rule/master/mv.txt",
+			"assets/ublock/mv.txt",
+			"assets/ublock/mv.txt"
+		],
+		"cdnURLs": [
+			"https://raw.githubusercontent.com/xinggsf/Adblock-Plus-Rule/master/mv.txt",
+		],
+		"supportURL": "https://github.com/uBlockOrigin/uAssets"
+	},
+	"xinggsf_rule": {
+		"content": "filters",
+		"group": "default",
+		"parent": "uBlock filters",
+		"title": "乘风 - 广告过滤规则",
+		"contentURL": [
+			"https://raw.githubusercontent.com/xinggsf/Adblock-Plus-Rule/master/rule.txt",
+			"assets/ublock/rule.txt",
+			"assets/ublock/rule.txt"
+		],
+		"cdnURLs": [
+			"https://raw.githubusercontent.com/xinggsf/Adblock-Plus-Rule/master/rule.txt",
 		],
 		"supportURL": "https://github.com/uBlockOrigin/uAssets"
 	},
@@ -306,7 +336,7 @@
 		"title": "uBlock filters – Cookie Notices",
 		"tags": "annoyances cookies",
 		"preferred": true,
-		"contentURL": "https://ublockorigin.github.io/uAssets/filters/annoyances-cookies.txt",
+		"contentURL": "https://ublockorigin.github.io/uAssetsCDN/filters/annoyances-cookies.txt",
 		"cdnURLs": [
 			"https://ublockorigin.github.io/uAssetsCDN/filters/annoyances-cookies.txt",
 			"https://ublockorigin.pages.dev/filters/annoyances-cookies.txt",
